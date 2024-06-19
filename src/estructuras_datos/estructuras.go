@@ -12,7 +12,7 @@ type persona struct {
 	correo string
 }
 
-// declarar un metodo, se debe poner un receptor y es colocando un parentecis antes del nombre de la funcion
+// un metodo es una funcion, pero para que esta sea un metodo se debe declara un receptor, declarar un metodo, se debe poner un receptor y es colocando un parentecis antes del nombre de la funcion
 func (p *persona) diHola() {
 	fmt.Println("hola mi nombre es", p.nombre)
 }
